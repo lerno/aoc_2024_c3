@@ -33,7 +33,6 @@ fn long! similarity()
 	File f = file::open("day1.txt", "rb")!;
 	defer (void)f.close();
 	long total = 0;
-	// We read by line and store it in a temporary string.
 	List(<long>) a;
 	HashMap(<long, int>) b;
 	a.temp_init();
