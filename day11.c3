@@ -68,6 +68,6 @@ fn void main()
 		// Simple benchmarking with Clock, "mark" returns the last duration and resets the clock
 		Clock c = clock::now();
 		io::printfn("* Path part 1: %s - completed in %s", solve(25), c.mark());
-		io::printfn("* Path part 1: %s - completed in %s", solve(75), c.mark());
+		io::printfn("* Path part 2: %s - completed in %s", solve(75), c.mark());
 	};
 }
