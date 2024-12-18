@@ -1,6 +1,5 @@
 /*
  * Advent of Code 2024 day 17
- *
  */
 import std::io, std::time, std::math, std::collections::list;
 
